@@ -1,0 +1,214 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+html{
+  height:100%;
+}
+
+body{
+  max-width:100%;
+  height:100%;
+  margin:auto;
+  font-size:14px;
+}
+
+.wrapper{
+  height:100%;
+}
+
+header{
+  height:100%;
+  overflow:hidden;
+  background-image:url("../images/flowers-size.jpg");
+  background-size:cover;
+  position:relative;
+}
+
+h1{
+  font-family:'Work Sans', sans-serif;
+  text-align:center;
+  color:white;
+  opacity:.8;
+  padding:0 0 0 6%;
+  margin:auto;
+  font-size:7.5rem;
+  position:absolute;
+  bottom:7%;
+}
+
+.arrow{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:2%;
+  width:0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid white;
+  opacity:.8;
+  margin:auto;
+}
+
+.section{
+  height:100%;
+  position:relative;
+}
+
+.webdev, .gd, .equestrian{
+  padding:0;
+}
+
+.gd{
+  background-color:#F4F4F4;
+}
+
+.title{
+  font-size:2rem;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  background-color:#3A373D;
+  padding:1%;
+  width:100%;
+  margin:0;
+}
+
+.intro{
+  text-align:center;
+  padding:5%;
+  font-size:1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color:#3A373D;
+}
+
+.thumbnail{
+  height:300px;
+  width:24%;
+  background-color:black;
+  display:inline-block;
+  margin:.5% 0 0 .5%;
+  position:relative;
+}
+
+.countryroad{
+  background-image:url("../images/countryroad.png");
+  background-size:cover;
+  background-position: center;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:.5% 0 .5% .5%;
+}
+
+.matching{
+  background-image:url("../images/matching.png");
+  background-size:cover;
+  background-position: center;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:0 0 .5% .5%;
+}
+
+.bluewhale{
+  background-image:url("../images/bluewhale.png");
+  background-size:cover;
+  background-position: 30%;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:0 0 .5% .5%;
+}
+
+.alphabet{
+  background-image:url("../images/alphabet.jpg");
+  background-size:cover;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:.5% 0 .5% .5%;
+}
+
+.shakespeare{
+  background-image:url("../images/shakespeare.jpg");
+  background-size:cover;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:.5% 0 .5% .5%;
+}
+
+.australia{
+  background-image:url("../images/australia.jpg");
+  background-size:cover;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:0 0 .5% .5%;
+}
+
+.logos{
+  background-image:url("../images/logos.jpg");
+  background-size:cover;
+  overflow:hidden;
+  width:49%;
+  height:400px;
+  margin:0 0 .5% .5%;
+}
+
+.alphabet:after, .shakespeare:after, .logos:after, .australia:after{
+  content:'';
+  height:100%;
+  width:100%;
+  position:absolute;
+  background: linear-gradient(rgba(255,0,0,0) 70%,rgba(0,0,0,.7));
+}
+
+.flatwork{
+  background-image:url("../images/flatwork.jpg");
+  background-size:cover;
+  overflow:hidden;
+}
+
+.carl-1{
+  background-image:url("../images/carl-1.jpg");
+  background-size:cover;
+  overflow:hidden;
+}
+
+.jumping{
+  background-image:url("../images/jumping.jpg");
+  background-size:cover;
+  overflow:hidden;
+}
+
+.carl-2{
+  background-image:url("../images/carl-2.jpg");
+  background-size:cover;
+  overflow:hidden;
+}
+
+footer{
+  text-align:center;
+  padding:5%;
+  background-color:#F4F4F4;
+  font-size:1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color:#3A373D;
+}
+
+span{
+  display:block;
+}
+
+a{
+  text-decoration:none;
+  color:#3A373D;
+}
+
+span a{
+  color:#4286f4;
+}
